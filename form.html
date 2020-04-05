@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+    <body>
+        <style>
+        input[type=text]{
+  background-color:greenyellow;
+        }
+        input[type=password]{
+  background-color:firebrick;
+        }
+  input[type=checkbox]{
+  color:hotpink
+  }
+  input[type=submit]{
+  color:sandybrown
+  }
+  input[type=reset]{
+  color:indigo
+  }
+  input[type=file]{
+  color:yellow
+  }
+        </style>
+
+    <form>
+      <p style= color:gold> Username : <input type = "text" name = "username" style= color:blue> <br>
+      <p  style= color:fuchsia> Password :<input type = "password" padding name = "password" style= color:aqua> <br> </p>
+
+      <p style= color:forestgreen g> Description :  <br/>
+        <textarea rows = "5" cols "50" name ="description" style= color:blueviolet>
+Enter description here...
+        </textarea></p> <br/>
+
+        <p style= color:brown> Math  <input type = "checkbox" name = "math" value = "on" >
+        <p style= color:cadetblue> Physics <input type = "checkbox" name = "physics" value = "on"> 
+        <p style= color:chartreuse> English <input type = "checkbox" name = "english" value = "on" > </p> <br/>
+
+        <p style= color:coral> Math <input type = "radio" name = "subject" value = "math" style= color:coral>
+        <p style= color:crimson> Physics  <input type = "radio" name = "subject" value = "physics" style= color:crimson> 
+        <p style= color:darkgreen> English <input type = "radio" name = "subject" value = "english" style= color:darkgreen>  <br/>
+
+        <select style= color:darkslateblue name = "dropdown">
+                <option value = "Math"> Math </option>
+            <option value = "Physics"> Physics </option>
+            <option value = "English"> English </option>
+        </select> <br/>
+
+        <input type = "file" name = "fileupload" accept = "image/*"/> <br/> 
+
+        <input type = "submit" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset" value ="Reset" />
+        <input type = "submit" name = "ok" value = "OK" />
+
+    </form>
+    </body>
+
+</html>
